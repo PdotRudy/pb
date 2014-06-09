@@ -1,0 +1,33 @@
+
+
+#header{
+background:url('images/washington-dc.jpg');
+background-repeat:no-repeat;
+background-position:center;
+}
+
+#company_info{
+float:right;
+display: table-row-group;
+vertical-align:middle;
+}
+#location{
+float:left;
+padding: 10px;
+}
+#border{
+vertical-align:baseline !important;
+}
+#phone_number{
+display:inline-block;
+padding: 10px;
+}
+#phone_number img{
+display:block;
+}
+
+#down_arrow{
+}
+#sub_nav{
+text-align: center;
+}
