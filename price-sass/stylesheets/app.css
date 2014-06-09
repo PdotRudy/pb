@@ -7483,3 +7483,8 @@ a.th {
     width: 52px;
   }
 }
+
+/* line 278, ../sass/app.scss */
+#mid {
+  background: url("../../images/mid-background.jpg");
+}
