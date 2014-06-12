@@ -7219,21 +7219,20 @@ a.th {
 }
 
 @media (max-width: 480px) {
-  /* line 90, ../sass/app.scss */
+  /* line 95, ../sass/app.scss */
   #top_bar {
     background: url("../../images/phone-header-background.png");
   }
 }
 
-/* line 95, ../sass/app.scss */
+/* line 100, ../sass/app.scss */
 #logo {
   display: inline-block;
 }
 @media (max-width: 480px) {
-  /* line 95, ../sass/app.scss */
+  /* line 100, ../sass/app.scss */
   #logo {
     position: relative;
-    top: 50%;
     -webkit-transform: translateY(50%);
     -ms-transform: translateY(50%);
     transform: translateY(50%);
@@ -7242,48 +7241,48 @@ a.th {
   }
 }
 
-/* line 104, ../sass/app.scss */
+/* line 109, ../sass/app.scss */
 #mobile_phone {
   display: none;
 }
 @media (max-width: 480px) {
-  /* line 104, ../sass/app.scss */
+  /* line 109, ../sass/app.scss */
   #mobile_phone {
     display: block;
   }
 }
 
-/* line 112, ../sass/app.scss */
+/* line 117, ../sass/app.scss */
 #company_info {
   float: right;
   display: table-row-group;
   vertical-align: middle;
 }
 @media (max-width: 480px) {
-  /* line 112, ../sass/app.scss */
+  /* line 117, ../sass/app.scss */
   #company_info {
     display: none;
   }
 }
 
-/* line 121, ../sass/app.scss */
+/* line 126, ../sass/app.scss */
 #location {
   float: left;
   padding: 10px;
 }
 
-/* line 126, ../sass/app.scss */
+/* line 131, ../sass/app.scss */
 #border {
   vertical-align: baseline !important;
 }
 
-/* line 130, ../sass/app.scss */
+/* line 135, ../sass/app.scss */
 #phone_number {
   display: inline-block;
   padding: 10px;
 }
 
-/* line 139, ../sass/app.scss */
+/* line 144, ../sass/app.scss */
 #main_nav {
   display: table;
   margin: auto auto;
@@ -7291,47 +7290,47 @@ a.th {
   /* ===== Second and Third Level ===== */
 }
 @media (max-width: 480px) {
-  /* line 139, ../sass/app.scss */
+  /* line 144, ../sass/app.scss */
   #main_nav {
     display: none !important;
   }
 }
-/* line 148, ../sass/app.scss */
+/* line 153, ../sass/app.scss */
 #main_nav ul li {
   text-align: center;
   display: inline-block;
   list-style-type: none;
   padding: 2px 10px;
 }
-/* line 155, ../sass/app.scss */
+/* line 160, ../sass/app.scss */
 #main_nav ul li a {
   display: block;
   color: white;
   text-decoration: none;
   font-size: 18px;
-  font-family: helvitica;
+  font-family: "helvitica", sans-serif;
   line-height: 10px;
 }
-/* line 163, ../sass/app.scss */
+/* line 168, ../sass/app.scss */
 #main_nav ul li:hover {
   background: white;
 }
-/* line 166, ../sass/app.scss */
+/* line 171, ../sass/app.scss */
 #main_nav ul li:hover a {
   color: blue;
 }
-/* line 169, ../sass/app.scss */
+/* line 174, ../sass/app.scss */
 #main_nav ul ul, #main_nav ul li:hover ul ul {
   position: absolute;
   display: none;
 }
-/* line 173, ../sass/app.scss */
+/* line 178, ../sass/app.scss */
 #main_nav ul ul li:hover ul, #main_nav ul li:hover ul li:hover ul {
   display: block;
   top: 0px;
   left: 100%;
 }
-/* line 179, ../sass/app.scss */
+/* line 184, ../sass/app.scss */
 #main_nav ul li:hover ul {
   display: block;
   position: absolute;
@@ -7342,22 +7341,22 @@ a.th {
   box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.15) inset;
   z-index: 99999;
 }
-/* line 189, ../sass/app.scss */
+/* line 194, ../sass/app.scss */
 #main_nav ul li:hover ul li {
   display: block !important;
   position: relative;
 }
-/* line 193, ../sass/app.scss */
+/* line 198, ../sass/app.scss */
 #main_nav ul ul {
   background: white;
 }
-/* line 196, ../sass/app.scss */
+/* line 201, ../sass/app.scss */
 #main_nav ul ul ul {
   background: #e4e4e4 !important;
   border-color: #e4e4e4 !important;
   margin-left: -14px;
 }
-/* line 201, ../sass/app.scss */
+/* line 206, ../sass/app.scss */
 #main_nav ul ul li a {
   float: none;
   width: 180px;
@@ -7370,23 +7369,23 @@ a.th {
   padding: 6px 10px;
   background: none !important;
 }
-/* line 213, ../sass/app.scss */
+/* line 218, ../sass/app.scss */
 #main_nav ul ul ul li a {
   color: #fff;
   font-weight: bold;
 }
-/* line 217, ../sass/app.scss */
+/* line 222, ../sass/app.scss */
 #main_nav ul ul li:hover > a {
   background: #fff !important;
   color: #999 !important;
 }
-/* line 221, ../sass/app.scss */
+/* line 226, ../sass/app.scss */
 #main_nav ul ul ul li:hover > a {
   background: #eee !important;
   color: #777 !important;
 }
 
-/* line 227, ../sass/app.scss */
+/* line 232, ../sass/app.scss */
 .top_triangle {
   width: 220px;
   height: 220px;
@@ -7402,7 +7401,7 @@ a.th {
   /* Rotate Origin */
 }
 
-/* line 236, ../sass/app.scss */
+/* line 241, ../sass/app.scss */
 .top_triangle:before {
   content: "";
   position: absolute;
@@ -7413,7 +7412,7 @@ a.th {
   z-index: -1;
 }
 
-/* line 240, ../sass/app.scss */
+/* line 245, ../sass/app.scss */
 .top_triangle img {
   /* Rotate */
   -webkit-transform: rotate(45deg);
@@ -7425,7 +7424,7 @@ a.th {
   display: table;
 }
 
-/* line 245, ../sass/app.scss */
+/* line 250, ../sass/app.scss */
 #dc_button:before {
   background: url("../../images/dc.png") 0 0 repeat;
   /* Rotate */
@@ -7437,7 +7436,7 @@ a.th {
   /* Rotate Origin */
 }
 
-/* line 250, ../sass/app.scss */
+/* line 255, ../sass/app.scss */
 #md_button:before {
   background: url("../../images/maryland.png") 0 0 repeat;
   /* Rotate */
@@ -7449,7 +7448,7 @@ a.th {
   /* Rotate Origin */
 }
 
-/* line 255, ../sass/app.scss */
+/* line 260, ../sass/app.scss */
 #va_button:before {
   background: url("../../images/maryland.png") 0 0 repeat;
   /* Rotate */
@@ -7461,17 +7460,17 @@ a.th {
   /* Rotate Origin */
 }
 
-/* line 260, ../sass/app.scss */
+/* line 265, ../sass/app.scss */
 .padding-bottom {
   padding-bottom: 250px;
 }
 
-/* line 264, ../sass/app.scss */
+/* line 269, ../sass/app.scss */
 #mobile_nav_button {
   display: none;
 }
 @media (max-width: 480px) {
-  /* line 264, ../sass/app.scss */
+  /* line 269, ../sass/app.scss */
   #mobile_nav_button {
     background-image: url("../../images/mobile-button.png");
     background-repeat: no-repeat;
@@ -7484,7 +7483,238 @@ a.th {
   }
 }
 
-/* line 278, ../sass/app.scss */
+/* line 283, ../sass/app.scss */
 #mid {
   background: url("../../images/mid-background.jpg");
+}
+
+/* line 287, ../sass/app.scss */
+.important_width {
+  max-width: 82.5em !important;
+}
+
+/* line 291, ../sass/app.scss */
+#text {
+  text-align: center;
+}
+/* line 293, ../sass/app.scss */
+#text p, #text h1 {
+  color: white !important;
+}
+
+/* line 298, ../sass/app.scss */
+.categories_wrapper {
+  padding: 25px 5px;
+  cursor: pointer;
+}
+/* line 302, ../sass/app.scss */
+.categories_wrapper:hover .whitebox {
+  background-color: #1e2d5a;
+}
+/* line 304, ../sass/app.scss */
+.categories_wrapper:hover .whitebox h6, .categories_wrapper:hover .whitebox p {
+  color: white !important;
+}
+/* line 308, ../sass/app.scss */
+.categories_wrapper:hover .yellowbox {
+  background-color: #141e3c;
+}
+/* line 312, ../sass/app.scss */
+.categories_wrapper .whitebox {
+  background: white;
+  padding: 0px 20px;
+  float: left;
+  width: 75%;
+  height: 172px;
+}
+/* line 318, ../sass/app.scss */
+.categories_wrapper .whitebox h6 {
+  color: #1f2f5f;
+  line-height: 3.161;
+  font-size: 18px;
+  font-family: "Source Sans Pro";
+  padding: 0px;
+  margin: 0px;
+}
+/* line 326, ../sass/app.scss */
+.categories_wrapper .whitebox p {
+  font-size: 14px;
+  font-family: "Source Sans Pro";
+  color: #555555;
+  line-height: 1.714;
+}
+/* line 334, ../sass/app.scss */
+.categories_wrapper .yellowbox {
+  background: #f4bf1b;
+  height: 172px;
+}
+/* line 337, ../sass/app.scss */
+.categories_wrapper .yellowbox img {
+  display: table;
+  margin: auto;
+  position: relative;
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+
+/* line 345, ../sass/app.scss */
+#trust {
+  font-size: 33px;
+  font-family: "Source Sans Pro";
+  color: white;
+  text-transform: uppercase;
+  line-height: 1.724;
+  padding: 40px 0px;
+  background: #1e2d5a;
+}
+/* line 353, ../sass/app.scss */
+#trust img {
+  margin: auto;
+  display: table;
+}
+
+/* line 359, ../sass/app.scss */
+.upper_triangle {
+  width: 175px;
+  height: 175px;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  /* Rotate */
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  /* Rotate Origin */
+}
+
+/* line 368, ../sass/app.scss */
+.upper_triangle:before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+}
+
+/* line 372, ../sass/app.scss */
+.upper_triangle img {
+  /* Rotate */
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  /* Rotate Origin */
+  display: table;
+  padding: 40px;
+}
+
+/* line 378, ../sass/app.scss */
+#creds {
+  padding: 100px;
+}
+
+/* line 382, ../sass/app.scss */
+#avvo:before {
+  background: url("../../images/lower-diamond.png") 0 0 no-repeat;
+  /* Rotate */
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  /* Rotate Origin */
+  background-position: center;
+}
+
+/* line 388, ../sass/app.scss */
+#bbb:before {
+  background: url("../../images/lower-diamond.png") 0 0 no-repeat;
+  /* Rotate */
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  /* Rotate Origin */
+  background-position: center;
+}
+
+/* line 394, ../sass/app.scss */
+#national:before {
+  background: url("../../images/lower-diamond.png") 0 0 no-repeat;
+  /* Rotate */
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  /* Rotate Origin */
+  background-position: center;
+}
+
+/* line 400, ../sass/app.scss */
+#dui:before {
+  background: url("../../images/lower-diamond.png") 0 0 no-repeat;
+  /* Rotate */
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  /* Rotate Origin */
+  background-position: center;
+}
+
+/* line 406, ../sass/app.scss */
+.lower_triangle {
+  background: #1e2d5a;
+  width: 175px;
+  height: 175px;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  /* Rotate */
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  /* Rotate Origin */
+}
+
+/* line 416, ../sass/app.scss */
+.lower_triangle img {
+  /* Rotate */
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  /* Rotate Origin */
+  display: table;
+  padding: 40px;
+}
+
+/* line 423, ../sass/app.scss */
+#lawyers {
+  background: url("../../images/city-lawyers.png");
+}
+
+/* line 427, ../sass/app.scss */
+#lawyerIMG img {
+  float: left;
+}
+
+/* line 431, ../sass/app.scss */
+#lawyerIMG2 img {
+  position: relative;
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
 }

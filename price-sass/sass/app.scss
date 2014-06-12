@@ -56,13 +56,18 @@
 
 $triangle_width: 220px;
 $triangle_height: 220px;
+$upper_triangle_width: 175px;
+$upper_triangle_height: 175px;
 $main_nav_font_size: 18px;
 $main_nav_line_height: 10px;
-$main_nav_font_family: helvitica;
+$main_nav_font_family: 'helvitica', sans-serif;
+$important_width: 82.5em !important;
+$category_height: 172px;
+$lighter_blue: #1e2d5a;
+$darker_blue: rgb( 20, 30, 60 );
 
 @mixin vertical-align($percent) {
   position: relative;
-  top: 50%;
   -webkit-transform: translateY($percent);
   -ms-transform: translateY($percent);
   transform: translateY($percent);
@@ -279,4 +284,150 @@ padding-bottom: 250px;
 background: url('../../images/mid-background.jpg');
 }
 
+.important_width {
+max-width: $important_width;
+}
 
+#text {
+text-align:center;
+ p, h1 {
+color: white !important;
+}
+}
+
+.categories_wrapper {
+	padding: 25px 5px; 
+	cursor: pointer;
+		&:hover {
+			.whitebox {
+			 background-color: $lighter_blue;
+				h6, p {
+					color: white !important;
+				}
+			}
+			.yellowbox {
+				background-color: $darker_blue;
+			 }
+		}
+		.whitebox {
+			background: white;
+			padding: 0px 20px;
+			float: left;
+			width: 75%;
+			height: $category_height;
+				h6 {
+					color: rgb( 31, 47, 95 );
+					line-height: 3.161;
+					font-size: 18px;
+					font-family: "Source Sans Pro";
+					padding: 0px;
+					margin: 0px;
+				}
+				p {
+					font-size: 14px;
+					font-family: "Source Sans Pro";
+					color: rgb( 85, 85, 85 );
+					line-height: 1.714;
+				}
+		}
+
+		.yellowbox {
+			background: #f4bf1b;
+			height: $category_height;
+				img {
+					display: table;
+					margin: auto;
+					@include vertical-align(50%);
+				}
+			}
+}
+
+#trust {
+	font-size: 33px;
+	font-family: "Source Sans Pro";
+	color: rgb( 255, 255, 255 );
+	text-transform: uppercase;
+	line-height: 1.724;
+	padding: 40px 0px;
+	background: $lighter_blue;
+		img {
+			margin: auto;
+			display: table;
+  }
+ }
+
+ .upper_triangle{
+   width: $upper_triangle_width;
+   height: $upper_triangle_height;
+   position: relative;
+   overflow: hidden;
+   display: inline-block; 
+   @include triangle-rotate(-45deg);
+}
+
+.upper_triangle:before{
+    @include triangle-before();
+}
+
+.upper_triangle img{
+@include triangle-rotate(45deg);
+display: table;
+padding: 40px;
+}
+
+#creds {
+padding: 100px;
+}
+
+#avvo:before {
+ background: url("../../images/lower-diamond.png") 0 0 no-repeat;
+@include triangle-rotate(45deg);
+background-position:center;
+}
+
+#bbb:before {
+ background: url("../../images/lower-diamond.png") 0 0 no-repeat;
+@include triangle-rotate(45deg);
+background-position:center;
+}
+
+#national:before {
+ background: url("../../images/lower-diamond.png") 0 0 no-repeat;
+@include triangle-rotate(45deg);
+background-position:center;
+}
+
+#dui:before {
+ background: url("../../images/lower-diamond.png") 0 0 no-repeat;
+@include triangle-rotate(45deg);
+background-position:center;
+}
+
+.lower_triangle {
+background: $lighter_blue;
+ width: $upper_triangle_width;
+   height: $upper_triangle_height;
+   position: relative;
+   overflow: hidden;
+   display: inline-block; 
+   @include triangle-rotate(-45deg);
+}
+
+.lower_triangle img{
+	@include triangle-rotate(45deg);
+	display: table;
+	padding: 40px;
+}
+
+
+#lawyers {
+background: url('../../images/city-lawyers.png');
+}
+
+#lawyerIMG img {
+  float: left;
+}
+
+#lawyerIMG2 img {
+@include vertical-align(50%);
+}

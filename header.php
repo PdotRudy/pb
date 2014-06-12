@@ -120,11 +120,6 @@
 				</div><!--sub_nav-->
 			</div>
 		</div>
-		
-		<script>
-  $(document).foundation();
-</script>
-</body>
-</html>
+
 
   
